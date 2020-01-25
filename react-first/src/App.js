@@ -9,10 +9,13 @@ function App() {
     <div className="container">
       <div className="row">
         <Header></Header>
+      </div>
+      <div className="row">
         <Dashboard></Dashboard>
+      </div>
+      <div className="row">
         <Footer></Footer>
       </div>
-
     </div>
   );
 }
